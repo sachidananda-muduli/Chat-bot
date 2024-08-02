@@ -3,10 +3,13 @@ import re
 import random_responses
 
 def load_json(file):
+   try: 
     with open(file) as bot_responses:
         print(f"Loaded '{file}' successfully!")
         return json.load(bot_responses)
-    
+   except FileNotFoundError:
+        print(f"Error: The file '{file}' was not found.")
+        return [] 
 response_data = load_json("bot.json")
 
 # def message_probability(user_message,recognised_words,single_response=False, required_words=[]):
