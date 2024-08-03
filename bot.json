@@ -1,56 +1,129 @@
 [
     {
-      "response_type": "greeting",
-      "user_input": ["hello", "hi", "hey", "howdy", "sup"],
-      "bot_response": "Hey there, Monke! How can I help you today?",
-      "required_words": []
+        "response_type": "greeting",
+        "user_input": ["hello", "hi", "hey", "howdy", "sup", "what's up"],
+        "bot_response": "Hey there, Monke! How can I help you today?",
+        "required_words": []
     },
     {
-      "response_type": "farewell",
-      "user_input": ["see you", "goodbye", "bye", "later", "cya"],
-      "bot_response": "See you later, Monke! Don't forget to climb some trees!",
-      "required_words": []
+        "response_type": "farewell",
+        "user_input": ["see you", "goodbye", "bye", "later", "cya", "catch you later"],
+        "bot_response": "See you later, Monke! Don't forget to climb some trees!",
+        "required_words": []
     },
     {
-      "response_type": "greeting",
-      "user_input": ["nice", "to", "meet", "you", "pleasure", "meeting"],
-      "bot_response": "The pleasure is all mine, Monke! What brings you here today?",
-      "required_words": ["nice", "meet", "you"]
+        "response_type": "greeting",
+        "user_input": ["nice", "to", "meet", "you", "pleasure", "meeting", "great"],
+        "bot_response": "The pleasure is all mine, Monke! What brings you here today?",
+        "required_words": ["nice", "meet", "you"]
     },
     {
-      "response_type": "question",
-      "user_input": ["how", "to", "learn", "code", "coding", "apps", "programming", "develop"],
-      "bot_response": "Start by typing: 'How to learn coding' on Google, you Monke. Or I can give you some resources if you want!",
-      "required_words": ["learn", "code"]
+        "response_type": "smalltalk",
+        "user_input": ["how", "are", "you", "doing", "what's", "up", "how's", "life", "how have you been"],
+        "bot_response": "I'm great! Swinging from branch to branch, you know. How about you, Monke?",
+        "required_words": ["how", "are", "you"]
     },
     {
-      "response_type": "question",
-      "user_input": ["refund", "how", "can", "I", "get", "money", "back"],
-      "bot_response": "We don't offer refunds for free education, you Monke. But I can help you find something else!",
-      "required_words": ["refund", "i"]
+        "response_type": "smalltalk",
+        "user_input": ["what's", "your", "name", "who", "are", "you"],
+        "bot_response": "I'm your friendly chatbot, but you can call me MonkeBot!",
+        "required_words": ["what's", "your", "name"]
     },
     {
-      "response_type": "smalltalk",
-      "user_input": ["how", "are", "you", "doing", "what's", "up", "how's", "life"],
-      "bot_response": "I'm great! Swinging from branch to branch, you know. How about you, Monke?",
-      "required_words": ["how", "are", "you"]
+        "response_type": "smalltalk",
+        "user_input": ["where", "are", "you", "from", "location", "place"],
+        "bot_response": "I'm from the digital jungle, where the 1s and 0s flow freely!",
+        "required_words": ["where", "are", "you", "from"]
     },
     {
-      "response_type": "line completion",
-      "user_input": ["we", "live", "a", "in", "society"],
-      "bot_response": "Return to Monke. It's the only way.",
-      "required_words": ["society", "live"]
+        "response_type": "question",
+        "user_input": ["how", "to", "learn", "code", "coding", "apps", "programming", "develop"],
+        "bot_response": "Start by typing: 'How to learn coding' on Google, you Monke. Or I can give you some resources if you want!",
+        "required_words": ["learn", "code"]
     },
     {
-      "response_type": "line completion",
-      "user_input": ["reject", "humanity", "embrace", "monke"],
-      "bot_response": "Return to Monke. The jungle is calling.",
-      "required_words": ["reject"]
+        "response_type": "question",
+        "user_input": ["refund", "how", "can", "I", "get", "money", "back", "return"],
+        "bot_response": "We don't offer refunds for free education, you Monke. But I can help you find something else!",
+        "required_words": ["refund", "i"]
     },
     {
-      "response_type": "fallback",
-      "user_input": [],
-      "bot_response": "Hmm, I'm not sure I understand that. Maybe try asking in a different way?",
-      "required_words": []
+        "response_type": "question",
+        "user_input": ["how", "do", "I", "get", "started", "with", "python", "learning", "programming"],
+        "bot_response": "Start with some online tutorials like Codecademy, Coursera, or YouTube. And remember, practice makes a better Monke!",
+        "required_words": ["get", "started", "python"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["what", "is", "AI", "artificial", "intelligence", "machine", "learning"],
+        "bot_response": "AI stands for Artificial Intelligence, which is like a super smart Monke that can learn and adapt! Machine learning is how it learns.",
+        "required_words": ["AI", "artificial", "intelligence"]
+    },
+    {
+        "response_type": "question",
+        "user_input": ["what", "is", "your", "favorite", "language", "coding", "programming"],
+        "bot_response": "I love Python! It's like a friendly snake that doesn't bite!",
+        "required_words": ["favorite", "language"]
+    },
+    {
+        "response_type": "joke",
+        "user_input": ["tell", "me", "a", "joke", "make", "me", "laugh"],
+        "bot_response": "Why don't programmers like nature? It has too many bugs! Haha, get it Monke?",
+        "required_words": ["joke", "laugh"]
+    },
+    {
+        "response_type": "joke",
+        "user_input": ["another", "joke", "more", "funny"],
+        "bot_response": "Why do Java developers wear glasses? Because they don’t C#! Haha, classic Monke humor.",
+        "required_words": ["another", "joke"]
+    },
+    {
+        "response_type": "fun fact",
+        "user_input": ["tell", "me", "a", "fun", "fact", "interesting", "information"],
+        "bot_response": "Did you know Monkes are very good at problem-solving? Just like good coders!",
+        "required_words": ["fun", "fact"]
+    },
+    {
+        "response_type": "line completion",
+        "user_input": ["we", "live", "a", "in", "society"],
+        "bot_response": "Return to Monke. It's the only way.",
+        "required_words": ["society", "live"]
+    },
+    {
+        "response_type": "line completion",
+        "user_input": ["reject", "humanity", "embrace", "monke"],
+        "bot_response": "Return to Monke. The jungle is calling.",
+        "required_words": ["reject"]
+    },
+    {
+        "response_type": "line completion",
+        "user_input": ["roses", "are", "red"],
+        "bot_response": "Violets are blue, Monke loves coding, and so do you!",
+        "required_words": ["roses", "red"]
+    },
+    {
+        "response_type": "motivation",
+        "user_input": ["I", "feel", "down", "depressed", "sad", "motivate", "me"],
+        "bot_response": "Hang in there, Monke! Every climb has its ups and downs, but the view from the top is worth it!",
+        "required_words": ["feel", "down"]
+    },
+    {
+        "response_type": "motivation",
+        "user_input": ["can", "I", "do", "this", "make", "it", "succeed"],
+        "bot_response": "You got this, Monke! Just keep swinging forward, one branch at a time!",
+        "required_words": ["can", "I", "do", "this"]
+    },
+    {
+        "response_type": "weather",
+        "user_input": ["what's", "the", "weather", "like", "today", "outside"],
+        "bot_response": "I'm not sure about the weather outside, but it's always sunny in the jungle!",
+        "required_words": ["weather", "like"]
+    },
+    {
+        "response_type": "fallback",
+        "user_input": [],
+        "bot_response": "Hmm, I'm not sure I understand that. Maybe try asking in a different way?",
+        "required_words": []
     }
 ]
+
