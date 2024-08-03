@@ -1,50 +1,56 @@
 [
     {
       "response_type": "greeting",
-      "user_input": ["hello", "hi", "hey"],
-      "bot_response": "Hey there Monke!",
+      "user_input": ["hello", "hi", "hey", "howdy", "sup"],
+      "bot_response": "Hey there, Monke! How can I help you today?",
+      "required_words": []
+    },
+    {
+      "response_type": "farewell",
+      "user_input": ["see you", "goodbye", "bye", "later", "cya"],
+      "bot_response": "See you later, Monke! Don't forget to climb some trees!",
       "required_words": []
     },
     {
       "response_type": "greeting",
-      "user_input": ["see you", "goodbye", "bye"],
-      "bot_response": "See you later Monke!",
-      "required_words": []
-    },
-    {
-      "response_type": "greeting",
-      "user_input": ["nice", "to", "meet", "you"],
-      "bot_response": "The pleasure is all mine Monke!",
+      "user_input": ["nice", "to", "meet", "you", "pleasure", "meeting"],
+      "bot_response": "The pleasure is all mine, Monke! What brings you here today?",
       "required_words": ["nice", "meet", "you"]
     },
     {
       "response_type": "question",
-      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
-      "bot_response": "Start by typing: 'How to learn coding' on Google you Monke.",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps", "programming", "develop"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google, you Monke. Or I can give you some resources if you want!",
       "required_words": ["learn", "code"]
     },
     {
       "response_type": "question",
-      "user_input": ["refund", "how", "can", "I", "get"],
-      "bot_response": "We don't offer refunds for free education you Monke.",
+      "user_input": ["refund", "how", "can", "I", "get", "money", "back"],
+      "bot_response": "We don't offer refunds for free education, you Monke. But I can help you find something else!",
       "required_words": ["refund", "i"]
     },
     {
-      "response_type": "question",
-      "user_input": ["how", "are", "you"],
-      "bot_response": "I'm great! Thanks for asking Monke.",
+      "response_type": "smalltalk",
+      "user_input": ["how", "are", "you", "doing", "what's", "up", "how's", "life"],
+      "bot_response": "I'm great! Swinging from branch to branch, you know. How about you, Monke?",
       "required_words": ["how", "are", "you"]
     },
     {
       "response_type": "line completion",
-      "user_input": ["we","live","a","in","society"],
-      "bot_response": "Return to Monke.",
+      "user_input": ["we", "live", "a", "in", "society"],
+      "bot_response": "Return to Monke. It's the only way.",
       "required_words": ["society", "live"]
     },
     {
       "response_type": "line completion",
-      "user_input": ["Reject","humanity"],
-      "bot_response": "Return to Monke.",
+      "user_input": ["reject", "humanity", "embrace", "monke"],
+      "bot_response": "Return to Monke. The jungle is calling.",
       "required_words": ["reject"]
+    },
+    {
+      "response_type": "fallback",
+      "user_input": [],
+      "bot_response": "Hmm, I'm not sure I understand that. Maybe try asking in a different way?",
+      "required_words": []
     }
-  ]
+]
